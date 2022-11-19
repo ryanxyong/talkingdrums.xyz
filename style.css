@@ -160,7 +160,6 @@ img {
 }
 
 a {
-  text-decoration: none;
   color: black;
 }
 
@@ -171,7 +170,7 @@ a {
 }
 
 .topnav a {
-  color: black;
+  text-decoration: none;
   padding: 0vh 2vw 2vh 2vw;
 }
 
