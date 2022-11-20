@@ -74,6 +74,7 @@ img {
 
 .supp {
   width: 50vw;
+  border-radius: 10px;
 }
 
 .video {
@@ -89,7 +90,7 @@ img {
   max-height: 40vh;
   object-fit: scale-down;
   margin-top: 1vh;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 a {
