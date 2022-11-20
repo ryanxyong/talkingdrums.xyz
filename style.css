@@ -45,7 +45,7 @@ p, ul {
 }
 
 .picback {
-  left: 20vw;
+  left: 17vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
@@ -56,7 +56,7 @@ p, ul {
 }
 
 .picforward {
-  right: 20vw;
+  right: 17vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
@@ -70,6 +70,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.supp {
+  width: 50vw;
 }
 
 .video {
@@ -116,7 +120,7 @@ a {
   to {opacity: 4}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   h2 {
     margin-left: 20vw;
     margin-right: 20vw;
@@ -137,5 +141,9 @@ a {
   
   .picforward {
     right: 0%;
+  }
+
+  .supp {
+    width: 80vw;
   }
 }
