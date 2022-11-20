@@ -115,7 +115,7 @@ p, ul {
 }
 
 .picback {
-  left: 10vw;
+  left: 15vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
@@ -126,7 +126,7 @@ p, ul {
 }
 
 .picforward {
-  right: 10vw;
+  right: 15vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
@@ -150,7 +150,7 @@ img {
 }
 
 .pic {
-  height: 70vh;
+  height: 50vh;
   object-fit: scale-down;
   margin-top: 1vh;
 }
