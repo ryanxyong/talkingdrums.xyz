@@ -38,76 +38,6 @@ p, ul {
   margin-right: 25vw;
 }
 
-.logo {
-  max-height: 6vh;
-  display: inline-block;
-}
-
-.container {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 2vw;
-  margin-top: 2vw;
-}
-
-.container-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: .3;
-  transition: .2s;
-}
-
-.container-img:hover {
-  opacity: 1;
-  transition: .2s;
-}
-
-.container-text {
-  color: black;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 40%;
-  width: 50%;
-  font-size: 2vh;
-  pointer-events: none;
-  opacity: 1;
-  transition: .2s;
-}
-
-.text-big {
-  font-size: 4vh;
-  width: 80%;
-}
-
-.works {
-  position: relative;
-  width: 30vh;
-  height: 30vh;  
-  text-align: center;
-}
-
-.works:hover .container-text {
-  opacity: 0;
-  transition: .2s;
-}
-
-.banner {
-  position: relative;
-  width: 96vw;
-  height: 20vh;  
-  text-align: center;
-}
-
-.banner:hover .container-text {
-  opacity: 0;
-  transition: .2s;
-}
-
 .piccarousel {
   max-width: 90vw;
   margin: auto;
@@ -150,22 +80,11 @@ img {
   aspect-ratio: 4/3;
 }
 
-.thumbnail {
-  width: 25vh;
-  height: 25vh;
-  object-fit: cover;
-  margin-top: 5vh;
-}
-
 .pic {
   height: 45vh;
   object-fit: scale-down;
   margin-top: 1vh;
   border-radius: 25px;
-}
-
-.squircle {
-  border-radius: 25%;
 }
 
 a {
@@ -218,13 +137,5 @@ a {
   
   .picforward {
     right: 0%;
-  }
-
-  .horipic {
-    max-width: 85%;
-  }
-  
-  .vertpic {
-    max-width: 85%;
   }
 }
