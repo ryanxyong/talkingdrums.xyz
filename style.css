@@ -38,6 +38,12 @@ p, ul {
   margin-right: 25vw;
 }
 
+blockquote {
+  text-align: justify;
+  margin-left: 30vw;
+  margin-right: 25vw;
+}
+
 .piccarousel {
   max-width: 90vw;
   margin: auto;
