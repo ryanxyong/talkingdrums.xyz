@@ -51,7 +51,7 @@ blockquote {
 }
 
 .picback {
-  left: 17vw;
+  left: 20vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
@@ -62,7 +62,7 @@ blockquote {
 }
 
 .picforward {
-  right: 17vw;
+  right: 20vw;
   cursor: pointer;
   position: absolute;
   top: 46%;
