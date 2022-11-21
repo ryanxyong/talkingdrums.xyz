@@ -139,6 +139,11 @@ a {
     margin-right: 10vw;
   }
 
+  blockquote {
+    margin-left: 15vw;
+    margin-right: 10vw;
+  }
+
   .pic {
     max-width: 80vw;
     max-height: 35vh;
