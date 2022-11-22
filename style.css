@@ -38,6 +38,11 @@ p, ul {
   margin-right: 25vw;
 }
 
+li {
+  padding-bottom: 5px;
+  text-align: left;
+}
+
 blockquote {
   text-align: justify;
   margin-left: 30vw;
